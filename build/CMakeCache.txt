@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=main
+CMAKE_PROJECT_NAME:STATIC=sample
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/opt/poky/3.1.16/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-ranlib
@@ -219,10 +219,10 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/opt/poky/3.1.16/sysroots/x86_64-pokysdk-linux/usr
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-main_BINARY_DIR:STATIC=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build
+sample_BINARY_DIR:STATIC=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build
 
 //Value Computed by CMake
-main_SOURCE_DIR:STATIC=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript
+sample_SOURCE_DIR:STATIC=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript
 
 
 ########################

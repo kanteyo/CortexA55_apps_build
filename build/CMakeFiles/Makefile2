@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/sample.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/sample.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/sample.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/sample.dir/all:
+	$(MAKE) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/depend
+	$(MAKE) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles --progress-num=1,2 "Built target sample"
+.PHONY : CMakeFiles/sample.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/sample.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/sample.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
+sample: CMakeFiles/sample.dir/rule
 
-.PHONY : main
+.PHONY : sample
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/sample.dir/clean:
+	$(MAKE) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/clean
+.PHONY : CMakeFiles/sample.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

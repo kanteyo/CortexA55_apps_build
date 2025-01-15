@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/main.cpp" "/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/sample.cpp" "/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/sample.dir/sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

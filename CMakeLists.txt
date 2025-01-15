@@ -1,4 +1,4 @@
-set(app_name    "main")
+set(app_name    "sample")
 set(app_version "1.0.0")
 
 cmake_minimum_required(VERSION 3.10.2)
@@ -7,7 +7,7 @@ project(${app_name})
 set(RCAR_SOC S4)
 
 set(source
-	main.cpp
+	sample.cpp
 )
 
 set(header

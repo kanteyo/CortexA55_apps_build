@@ -1,7 +1,7 @@
 /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/install/strip.dir
 /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/install/local.dir
 /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/edit_cache.dir
-/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/main.dir
+/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/sample.dir
 /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/rebuild_cache.dir
-/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/list_install_components.dir
 /home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/install.dir
+/home/subaru/whitebox-sdk/application_cpu/apps/CortexA55_Apps_BuildScript/build/CMakeFiles/list_install_components.dir
