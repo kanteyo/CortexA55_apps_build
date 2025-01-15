@@ -28,6 +28,8 @@ if [ -d "./build" ]; then
 	rm -rf build
 fi
 
+source /opt/poky/3.1.16/environment-setup-aarch64-poky-linux
+
 mkdir build
 cd build
 
