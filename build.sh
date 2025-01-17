@@ -33,8 +33,8 @@ source /opt/poky/3.1.16/environment-setup-aarch64-poky-linux
 mkdir build
 cd build
 
-cmake ..
-make
+cmake -G Ninja ..
+ninja
 
 for FILE in "$BUILD_DIR"/build/*; do
   if [ -f "$FILE" ] && [ -x "$FILE" ]; then
